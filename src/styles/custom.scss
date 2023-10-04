@@ -1,0 +1,12 @@
+@import '../assets/fonts/fonts.scss';
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Product Sans Regular';
+  @apply text-custom-white;
+  @apply bg-custom-body;
+}
